@@ -13,7 +13,7 @@ export default class Search extends Component {
 
         console.log(data.body)
         this.setState({
-            characters: data.body,
+            characters: data.body.results,
         });
     }
 
