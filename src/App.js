@@ -10,7 +10,11 @@ import Favorites from './Favorites';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <header>
+          <h1>Rick and Morty API</h1>
+      </header>
+      <div className="App">
       <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Search} />
@@ -18,6 +22,7 @@ function App() {
         </Switch>
 
       </BrowserRouter>
+      </div>
     </div>
   );
 }

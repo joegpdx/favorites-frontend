@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
+import CharItem from './CharItem';
 
 export default class List extends Component {
     render() {
+        const nodes = this.props.characters.map(char => <CharItem characters={ char } />)
         return (
-            <div>
-                {
-                    this.props.characters.map(char => <div className="char-box">
-                        {char.name}
-                    </div>)
-                }
+            <div className= 'WrapItem'>
+               {nodes} 
             </div>
         )
     }
