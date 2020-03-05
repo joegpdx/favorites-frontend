@@ -43,6 +43,7 @@ input {
   padding: 5px 5px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 button {
@@ -52,6 +53,7 @@ button {
     font-size: 1em;
     color: #f66a6a;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .App {
