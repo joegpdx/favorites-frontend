@@ -17,7 +17,6 @@ export default class CharItem extends React.Component {
                 <p>Status: { status }</p>
                 <p>Species: { species }</p>
             </div>
-
         )
     }
 }
